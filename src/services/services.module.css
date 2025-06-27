@@ -1,0 +1,155 @@
+
+
+
+
+:root{
+    --blue-color:#2487ce;
+    --default-color: #444444;
+    --tham-color:#007aff;
+    --primary-color:#1977cc;
+    --whait-color:#fff;
+    --heading-color:#2c4964;
+    --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      --heading-font: "Poppins", sans-serif;
+      --nav-font: "Raleway", sans-serif;
+  }
+  body{
+    font-family: var(--default-font);
+    color: var(--default-color);
+  }
+  a{
+    text-decoration: none;
+  }
+
+.section_heading {
+    margin-top: 100px;
+    margin-bottom: 75px;
+    padding: 10px;
+}
+.section_heading h1{
+  color: var(--heading-color);
+}
+
+.services{
+    background-color:#f6fafd;
+    padding-bottom: 30px;
+}
+.services .service_item {
+    background-color: var(--surface-color);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 90px 0px;
+    height: 100%;
+    text-align: center;
+    padding: 60px 30px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.services .service_item .icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0px auto;
+    transition: 0.3s ease-in-out;
+}
+.services .service_item .icon svg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.services .service_item .icon i {
+    font-size: 36px;
+    position: relative;
+    transition: 0.5s;
+}
+
+
+.services .service_item h3{
+    color: var(--heading-color);
+}
+.services  .item_cyan i {
+    color: rgb(13, 202, 240);
+    transition: 0.4s ;
+}
+.services  .item_tow i{
+color: #fd7e14;
+transition: 0.4s ;
+
+}
+.services  .item_three i{
+color: #20c997;
+transition: 0.4s ;
+
+}
+.services  .item_foure i{
+color: #e31529;
+transition: 0.4s ;
+
+}
+.services  .item_five i{
+color: #6610f2;
+transition: 0.4s ;
+
+}
+.services  .item_six i{
+color: #f3268c;
+transition: 0.4s ;
+
+}
+
+/* card hover  */
+.services .service_item .icon svg path {
+    fill: 
+    color-mix(in srgb, var(--default-color), transparent 95%);
+    /* fill: #fff; */
+    transition: 0.5s;
+}
+.services .service_item:hover i{
+    color: var(--whait-color);
+}
+.services .service_item.item_cyan:hover  .icon svg path{
+    fill:#23ccf0 ;
+}
+.services .service_item.item_tow:hover  .icon svg path{
+    fill:#fd7e14 ;
+}
+.services .service_item.item_three:hover  .icon svg path{
+    fill:#20c997;
+}
+.services .service_item.item_foure:hover  .icon svg path{
+    fill:#e31529;
+}
+.services .service_item.item_five:hover  .icon svg path{
+    fill:#6610f2 ;
+}
+.services .service_item.item_six:hover  .icon svg path{
+    fill:#f3268c ;
+}
+
+
+/* second section start ------  */
+.call_to_action {
+    margin-top: 100px;
+    padding: 80px 0;
+    position: relative;
+    clip-path: inset(0);
+    background-color: var(--blue-color);
+    color: var(--whait-color);
+}
+.call_to_action .cta_btn {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid var(--whait-color);
+    color: var(--whait-color);
+}
+.cta_btn:hover{
+    background-color: #469fdf;
+    color: var(--whait-color);
+}

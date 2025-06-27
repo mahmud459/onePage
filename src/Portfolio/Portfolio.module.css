@@ -1,0 +1,126 @@
+:root {
+  --blue-color: #2487ce;
+  --default-color: #444444;
+  --tham-color: #007aff;
+  --primary-color: #1977cc;
+  --whait-color: #fff;
+  --heading-color: #2c4964;
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Poppins", sans-serif;
+  --nav-font: "Raleway", sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--default-font);
+  color: var(--default-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.section_heading {
+  margin-top: 100px;
+  margin-bottom: 75px;
+  padding: 10px;
+}
+
+.section_heading h1 {
+  color: var(--heading-color);
+  text-transform: uppercase;
+}
+
+.isotopeLayout {
+  position: relative;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 1rem;
+  margin-bottom: 4rem;
+  /* margin-top: 1rem; */
+}
+
+.filters li {
+  cursor: pointer;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.filters li:hover,
+.filters .active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.isotopeContainer {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.portfolioItem {
+  position: relative; /* ✅ Critical fix */
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.portfolioItem:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  /* transform: translateY(-5px); */
+}
+
+.portfolioItem img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card_img {
+  object-fit: cover;
+}
+
+.portfolioInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  transition: 0.5s ease-in-out;
+  z-index: 2;
+  text-align: center;
+}
+
+.portfolioItem:hover .portfolioInfo {
+  bottom: 0;
+}
+
+.portfolioInfo i {
+  margin: 0 5px;
+  font-size: 1.2rem;
+  color: var(--blue-color);
+  cursor: pointer;
+}

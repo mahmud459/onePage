@@ -1,0 +1,84 @@
+:root {
+  --blue-color: #2487ce;
+  --default-color: #444444;
+  --tham-color: #007aff;
+  --primary-color: #1977cc;
+  --whait-color: #fff;
+  --heading-color: #2c4964;
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Poppins", sans-serif;
+  --nav-font: "Raleway", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--default-font);
+  color: var(--default-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.section_heading {
+  margin-top: 100px;
+  margin-bottom: 75px;
+  padding: 10px;
+}
+
+.section_heading h1 {
+  color: var(--heading-color);
+  text-transform: uppercase;
+}
+
+.team {
+    margin-top: 50px;
+  background-color: #f6fafd;
+  padding: 10px 0 10px;
+}
+.team .team_card .member_img {
+    position: relative;
+    overflow: hidden;
+}
+.team .team_card .social {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+}
+.team .team_card h5{
+    color: var(--heading-color);
+}
+.team .team_card:hover .social {
+  opacity: 1;
+  bottom: 15px;
+}
+.team .team_card .social a {
+  background: color-mix(in srgb, var(--whait-color), transparent 25%);
+  color: color-mix(in srgb, var(--blue-color), transparent 20%);
+  margin: 0 3px;
+  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+  transition: ease-in-out 0.3s;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.team .team_card  .social i {
+  font-size: 18px;
+  line-height: 0;
+}

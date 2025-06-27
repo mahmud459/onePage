@@ -1,0 +1,105 @@
+:root{
+    --default-color: #444444;
+    --tham-color:#007aff;
+    --primary-color:#1977cc;
+    --whait-color:#fff;
+    --heading-color:#2c4964;
+    --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      --heading-font: "Poppins", sans-serif;
+      --nav-font: "Raleway", sans-serif;
+  }
+  body{
+    font-family: var(--default-font);
+    color: var(--default-color);
+  }
+  a{
+    text-decoration: none;
+  }
+
+.hero_section {
+    padding-top: 100px;
+    height:auto;
+    background-image: url(./Hero-imgs/hero-bg-abstract.jpg);
+    background-size: cover;
+   position: relative;
+}
+.overlay_bg{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(255, 255, 255, 0.7);
+z-index: 1;
+}
+.hero_content{
+    position: relative;
+    z-index: 2;
+}
+.hero_header {
+    width: 50%;
+    color: var(--heading-color);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero_header h1 {
+    font-size: 3.7rem;
+}
+
+.hero_header p {
+    padding: 20px 0;
+    font-size: 18px;
+    color: var(--default-color);
+}
+.hero_header .button{
+    color: var(--whait-color);
+    background-color: var(--primary-color);
+    font-size: 16px;
+    padding: 10px 45px;
+    border-radius: 8px;
+  }
+
+.hero_cards {
+    padding-bottom: 50px;
+    margin-top: 150px;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_cards .my_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+    line-height: 25px;
+    padding: 40px 30px;
+    border-radius: 10px;
+    margin: 0;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0 ,0.2);
+    flex: 1 1 200px;
+    opacity: 0.8;
+    background-color: var(--whait-color);
+     height: 250px;
+     transition: 0.4s ease;
+}
+.hero_cards .my_card span i{
+    color: var(--tham-color);
+    font-size: 30px;
+}
+.hero_cards .my_card h4{
+    color: var(--heading-color);
+    font-weight: bold;
+}
+.hero_cards .my_card p{
+    color: var(--default-color);
+}
+
+.my_card:hover{
+   transform: scale(1.1);
+}
+
+
