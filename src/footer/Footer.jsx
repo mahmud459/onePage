@@ -5,14 +5,14 @@ function Footer() {
     <section>
       <div className={styles.footer_background}>
         <div className="container">
-          <footer class={styles.footer}>
-            <div class={`${styles.footer_top} container`}>
-              <div class={styles.footer_row}>
-                <div class={styles.footer_about}>
-                  <a href="index.html" class={styles.logo}>
-                    <span class={styles.sitename}>OnePage</span>
+          <footer className={styles.footer}>
+            <div className={`${styles.footer_top} container`}>
+              <div className={styles.footer_row}>
+                <div className={styles.footer_about}>
+                  <a href="index.html" className={styles.logo}>
+                    <span className={styles.sitename}>OnePage</span>
                   </a>
-                  <div class={styles.footer_contact}>
+                  <div className={styles.footer_contact}>
                     <p>A108 Adam Street</p>
                     <p>New York, NY 535022</p>
                     <p>
@@ -22,23 +22,23 @@ function Footer() {
                       <strong>Email:</strong> info@example.com
                     </p>
                   </div>
-                  <div class={styles.social_links}>
+                  <div className={styles.social_links}>
                     <a href="#">
-                      <i class="fa-brands fa-x-twitter"></i>
+                      <i className="fa-brands fa-x-twitter"></i>
                     </a>
                     <a href="#">
-                      <i class="fa-brands fa-facebook"></i>
+                      <i className="fa-brands fa-facebook"></i>
                     </a>
                     <a href="#">
-                      <i class="fa-brands fa-square-instagram"></i>
+                      <i className="fa-brands fa-square-instagram"></i>
                     </a>
                     <a href="#">
-                      <i class="fa-brands fa-linkedin"></i>
+                      <i className="fa-brands fa-linkedin"></i>
                     </a>
                   </div>
                 </div>
 
-                <div class={styles.footer_links}>
+                <div className={styles.footer_links}>
                   <h4>Useful Links</h4>
                   <ul>
                     <li>
@@ -59,7 +59,7 @@ function Footer() {
                   </ul>
                 </div>
 
-                <div class={styles.footer_links}>
+                <div className={styles.footer_links}>
                   <h4>Our Services</h4>
                   <ul>
                     <li>
@@ -80,7 +80,7 @@ function Footer() {
                   </ul>
                 </div>
 
-                <div class={styles.footer_links}>
+                <div className={styles.footer_links}>
                   <h4>Hic solutasetp</h4>
                   <ul>
                     <li>
@@ -103,11 +103,11 @@ function Footer() {
               </div>
             </div>
 
-            <div class={`container ${styles.copyright}`}>
+            <div className={`container ${styles.copyright}`}>
               <p>
-                © <strong class="sitename">OnPage</strong> All Rights Reserved
+                © <strong className="sitename">OnPage</strong> All Rights Reserved
               </p>
-              <div class="credits">
+              <div className="credits">
                 Designed by{" "}
                 <a href="https://mahmud459.github.io/Medilab-Hospital/">
                   Mahmud Mari
@@ -123,7 +123,7 @@ function Footer() {
       </div>
       <div id="Home"></div>
       <a href="#top" className={styles.scroll_top}>
-        <i class="fa-solid fa-angle-up"></i>
+        <i className="fa-solid fa-angle-up"></i>
       </a>
     </section>
   );

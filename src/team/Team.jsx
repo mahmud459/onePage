@@ -22,101 +22,101 @@ function Team() {
       <div className="container">
         <div className="row gy-3">
           <div className="col-md-3">
-            <div class={`${styles.team_card} card shadow`}>
+            <div className={`${styles.team_card} card shadow`}>
               <div className={styles.member_img}>
-                <img src={img1} class="card-img-top" alt="img not found" />
-                <div class={styles.social}>
+                <img src={img1} className="card-img-top" alt="img not found" />
+                <div className={styles.social}>
                   <a href="">
-                    <i class="fa-brands fa-x-twitter"></i>
+                    <i className="fa-brands fa-x-twitter"></i>
                   </a>
                   <a href="">
-                    <i class="fa-brands fa-facebook"></i>
+                    <i className="fa-brands fa-facebook"></i>
                   </a>
                   <a href="">
-                    <i class="fa-brands fa-instagram"></i>
+                    <i className="fa-brands fa-instagram"></i>
                   </a>
                   <a href="">
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i className="fa-brands fa-linkedin"></i>
                   </a>
                 </div>
               </div>
-              <div class="card-body">
-                <h5 class="card-title">Walter White</h5>
+              <div className="card-body">
+                <h5 className="card-title">Walter White</h5>
                 <small>Chief Executive Officer</small>
               </div>
             </div>
           </div>
           <div className="col-md-3">
-            <div class={`${styles.team_card} card shadow`}>
+            <div className={`${styles.team_card} card shadow`}>
             <div className={styles.member_img}>
-                <img src={img2} class="card-img-top" alt="img not found" />
-                <div class={styles.social}>
+                <img src={img2} className="card-img-top" alt="img not found" />
+                <div className={styles.social}>
                   <a href="">
-                    <i class="fa-brands fa-x-twitter"></i>
+                    <i className="fa-brands fa-x-twitter"></i>
                   </a>
                   <a href="">
-                    <i class="fa-brands fa-facebook"></i>
+                    <i className="fa-brands fa-facebook"></i>
                   </a>
                   <a href="">
-                    <i class="fa-brands fa-instagram"></i>
+                    <i className="fa-brands fa-instagram"></i>
                   </a>
                   <a href="">
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i className="fa-brands fa-linkedin"></i>
                   </a>
                 </div>
               </div>
-              <div class="card-body">
-                <h5 class="card-title">Sarah Jhonson</h5>
+              <div className="card-body">
+                <h5 className="card-title">Sarah Jhonson</h5>
                 <small>Accountant</small>
               </div>
             </div>
           </div>
           <div className="col-md-3">
-            <div class={`${styles.team_card} card shadow`}>
+            <div className={`${styles.team_card} card shadow`}>
             <div className={styles.member_img}>
-                <img src={img3} class="card-img-top" alt="img not found" />
-                <div class={styles.social}>
+                <img src={img3} className="card-img-top" alt="img not found" />
+                <div className={styles.social}>
                   <a href="">
-                    <i class="fa-brands fa-x-twitter"></i>
+                    <i className="fa-brands fa-x-twitter"></i>
                   </a>
                   <a href="">
-                    <i class="fa-brands fa-facebook"></i>
+                    <i className="fa-brands fa-facebook"></i>
                   </a>
                   <a href="">
-                    <i class="fa-brands fa-instagram"></i>
+                    <i className="fa-brands fa-instagram"></i>
                   </a>
                   <a href="">
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i className="fa-brands fa-linkedin"></i>
                   </a>
                 </div>
               </div>
-              <div class="card-body">
-                <h5 class="card-title">Walter White</h5>
+              <div className="card-body">
+                <h5 className="card-title">Walter White</h5>
                 <small>CTO</small>
               </div>
             </div>
           </div>
           <div className="col-md-3">
-            <div class={`${styles.team_card} card shadow`}>
+            <div className={`${styles.team_card} card shadow`}>
             <div className={styles.member_img}>
-                <img src={img4} class="card-img-top" alt="img not found" />
-                <div class={styles.social}>
+                <img src={img4} className="card-img-top" alt="img not found" />
+                <div className={styles.social}>
                   <a href="">
-                    <i class="fa-brands fa-x-twitter"></i>
+                    <i className="fa-brands fa-x-twitter"></i>
                   </a>
                   <a href="">
-                    <i class="fa-brands fa-facebook"></i>
+                    <i className="fa-brands fa-facebook"></i>
                   </a>
                   <a href="">
-                    <i class="fa-brands fa-instagram"></i>
+                    <i className="fa-brands fa-instagram"></i>
                   </a>
                   <a href="">
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i className="fa-brands fa-linkedin"></i>
                   </a>
                 </div>
               </div>
-              <div class="card-body">
-                <h5 class="card-title">Amanda Jepson</h5>
+              <div className="card-body">
+                <h5 className="card-title">Amanda Jepson</h5>
                 <small>Product Manager</small>
               </div>
             </div>

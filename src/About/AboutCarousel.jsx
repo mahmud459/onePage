@@ -23,12 +23,12 @@ function Testimonials() {
       </div>
       <div
         id="carouselExampleAutoplaying"
-        class="carousel slide"
+        className="carousel slide"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
+        <div className="carousel-inner">
           <div className="container">
-            <div class="carousel-item active">
+            <div className="carousel-item active">
 
                 {/* first slide ---- */}
               <div className="row justify-content-between">
@@ -45,7 +45,7 @@ function Testimonials() {
                     </p>
                     </div>
                     <div className={styles.img_div}>
-                      <img src={car1} class="d-block  img-fluid" alt="..." />
+                      <img src={car1} className="d-block  img-fluid" alt="..." />
                       
                     </div>
                     <div className="name_person">
@@ -67,7 +67,7 @@ function Testimonials() {
                     </p>
                     </div>
                     <div className={styles.img_div}>
-                      <img src={car2} class="d-block  img-fluid" alt="..." />
+                      <img src={car2} className="d-block  img-fluid" alt="..." />
                       
                     </div>
                     <div className="name_person">
@@ -89,7 +89,7 @@ function Testimonials() {
                     </p>
                     </div>
                     <div className={styles.img_div}>
-                      <img src={car3} class="d-block  img-fluid" alt="..." />
+                      <img src={car3} className="d-block  img-fluid" alt="..." />
                       
                     </div>
                     <div className="name_person">
@@ -102,7 +102,7 @@ function Testimonials() {
             </div>
           
           {/* second slid ------  */}
-          <div class="carousel-item">
+          <div className="carousel-item">
           <div className="row justify-content-between">
                 <div className="col-md-3">
                   <div className={`${styles.carousel_card}`}>
@@ -117,7 +117,7 @@ function Testimonials() {
                     </p>
                     </div>
                     <div className={styles.img_div}>
-                      <img src={car4} class="d-block  img-fluid" alt="..." />
+                      <img src={car4} className="d-block  img-fluid" alt="..." />
                       
                     </div>
                     <div className="name_person">
@@ -139,7 +139,7 @@ function Testimonials() {
                     </p>
                     </div>
                     <div className={styles.img_div}>
-                      <img src={car5} class="d-block  img-fluid" alt="..." />
+                      <img src={car5} className="d-block  img-fluid" alt="..." />
                       
                     </div>
                     <div className="name_person">
@@ -161,7 +161,7 @@ function Testimonials() {
                     </p>
                     </div>
                     <div className={styles.img_div}>
-                      <img src={car6} class="d-block  img-fluid" alt="..." />
+                      <img src={car6} className="d-block  img-fluid" alt="..." />
                       
                     </div>
                     <div className="name_person">
@@ -175,24 +175,24 @@ function Testimonials() {
         </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prav-icon " aria-hidden="true"></span>
+          <span className="carousel-control-prav-icon " aria-hidden="true"></span>
           {/* <span><i class="fa-solid fa-angles-left fs-4 text-primary"></i></span> */}
-          <span class="visually-hidden">Previous</span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon " aria-hidden="true"></span>
+          <span className="carousel-control-next-icon " aria-hidden="true"></span>
           {/* <span><i class="fa-solid fa-angles-right fs-4 text-primary"></i></span> */}
-          <span class="visually-hidden">Next</span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
     </section>

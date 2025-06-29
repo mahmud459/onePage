@@ -25,26 +25,26 @@ function ContactSection  () {
         ></iframe>
       </div>
       <div className="container">
-      <div class={`${styles.contact_container}`}>
-    <div class={styles.info_section}>
-      <div class={styles.info_item}>
-      <span><i class="fa-solid fa-location-dot"></i></span>
+      <div className={`${styles.contact_container}`}>
+    <div className={styles.info_section}>
+      <div className={styles.info_item}>
+      <span><i className="fa-solid fa-location-dot"></i></span>
         <div>
           <h3>Address</h3>
           <p>A108 Adam Street, New York, NY 535022</p>
         </div>
       </div>
   
-      <div class={styles.info_item}>
-      <span><i class="fa-solid fa-phone"></i></span>
+      <div className={styles.info_item}>
+      <span><i className="fa-solid fa-phone"></i></span>
         <div>
           <h3>Call Us</h3>
           <p>+1 5589 55488 55</p>
         </div>
       </div>
   
-      <div class={styles.info_item}>
-      <span><i class="fa-solid fa-envelope"></i></span>
+      <div className={styles.info_item}>
+      <span><i className="fa-solid fa-envelope"></i></span>
         <div>
           <h3>Email Us</h3>
           <p>info@example.com</p>
@@ -52,9 +52,9 @@ function ContactSection  () {
       </div>
     </div>
   
-    <div class={styles.form_section}>
-      <form class={styles.contact_form}>
-        <div class={styles.form_row}>
+    <div className={styles.form_section}>
+      <form className={styles.contact_form}>
+        <div className={styles.form_row}>
           <input type="text" name="name" placeholder="Your Name" required />
           <input type="email" name="email" placeholder="Your Email" required />
         </div>

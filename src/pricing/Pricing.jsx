@@ -27,11 +27,11 @@ const Pricing = () => {
                   <sup>$</sup>0<span className="text-muted fs-5"> / month</span>
                 </h4>
                 <ul className={`list-unstyled my-4 text-start ${styles.featureList}`}>
-                  <li><i class="fa-solid fa-check"></i>Quam adipiscing vitae proin</li>
-                  <li><i class="fa-solid fa-check"></i>Nec feugiat nisl pretium</li>
-                  <li><i class="fa-solid fa-check"></i>Nulla at volutpat diam uteera</li>
-                  <li className={styles.na}><i class="fa-solid fa-xmark text-muted"></i>Pharetra massa massa ultricies</li>
-                  <li className={styles.na}><i class="fa-solid fa-xmark text-muted"></i>Massa ultricies mi quis hendrerit</li>
+                  <li><i className="fa-solid fa-check"></i>Quam adipiscing vitae proin</li>
+                  <li><i className="fa-solid fa-check"></i>Nec feugiat nisl pretium</li>
+                  <li><i className="fa-solid fa-check"></i>Nulla at volutpat diam uteera</li>
+                  <li className={styles.na}><i className="fa-solid fa-xmark text-muted"></i>Pharetra massa massa ultricies</li>
+                  <li className={styles.na}><i className="fa-solid fa-xmark text-muted"></i>Massa ultricies mi quis hendrerit</li>
                 </ul>
                 <a href="#" className="btn btn-outline-primary w-100">Buy Now</a>
               </div>
@@ -47,11 +47,11 @@ const Pricing = () => {
                   <sup>$</sup>29<span className=" fs-5"> / month</span>
                 </h4>
                 <ul className={`list-unstyled my-4 text-start ${styles.featureList}`}>
-                  <li><i class="fa-solid fa-check"></i>Quam adipiscing vitae proin</li>
-                  <li><i class="fa-solid fa-check"></i>Nec feugiat nisl pretium</li>
-                  <li><i class="fa-solid fa-check"></i>Nulla at volutpat diam uteera</li>
-                  <li><i class="fa-solid fa-check"></i>Pharetra massa massa ultricies</li>
-                  <li><i class="fa-solid fa-check"></i>Massa ultricies mi quis hendrerit</li>
+                  <li><i className="fa-solid fa-check"></i>Quam adipiscing vitae proin</li>
+                  <li><i className="fa-solid fa-check"></i>Nec feugiat nisl pretium</li>
+                  <li><i className="fa-solid fa-check"></i>Nulla at volutpat diam uteera</li>
+                  <li><i className="fa-solid fa-check"></i>Pharetra massa massa ultricies</li>
+                  <li><i className="fa-solid fa-check"></i>Massa ultricies mi quis hendrerit</li>
                 </ul>
                 <a href="#" className="btn btn-primary w-100">Buy Now</a>
               </div>
@@ -67,11 +67,11 @@ const Pricing = () => {
                   <sup>$</sup>49<span className="text-muted fs-5"> / month</span>
                 </h4>
                 <ul className={` ${styles.featureList}`}>
-                  <li><i class="fa-solid fa-check"></i>Quam adipiscing vitae proin</li>
-                  <li><i class="fa-solid fa-check"></i>Nec feugiat nisl pretium</li>
-                  <li><i class="fa-solid fa-check"></i>Nulla at volutpat diam uteera</li>
-                  <li><i class="fa-solid fa-check"></i>Pharetra massa massa ultricies</li>
-                  <li><i class="fa-solid fa-check"></i>Massa ultricies mi quis hendrerit</li>
+                  <li><i className="fa-solid fa-check"></i>Quam adipiscing vitae proin</li>
+                  <li><i className="fa-solid fa-check"></i>Nec feugiat nisl pretium</li>
+                  <li><i className="fa-solid fa-check"></i>Nulla at volutpat diam uteera</li>
+                  <li><i className="fa-solid fa-check"></i>Pharetra massa massa ultricies</li>
+                  <li><i className="fa-solid fa-check"></i>Massa ultricies mi quis hendrerit</li>
                 </ul>
                 <a href="#" className="btn btn-outline-primary w-100">Buy Now</a>
               </div>

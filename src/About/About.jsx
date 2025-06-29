@@ -198,19 +198,19 @@ function ABOUT() {
               <p>
                 {" "}
                 <span>
-                <i class="fa-solid fa-check-double pe-2"></i>
+                <i className="fa-solid fa-check-double pe-2"></i>
                 </span>
                 Ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
               <p>
                 <span>
-                <i class="fa-solid fa-check-double pe-2"></i>
+                <i className="fa-solid fa-check-double pe-2"></i>
                 </span>
                 Duis aute irure dolor in reprehenderit in voluptate velit.
               </p>
               <p>
                 <span>
-                <i class="fa-solid fa-check-double pe-2"></i>
+                <i className="fa-solid fa-check-double pe-2"></i>
                 </span>
                 
 Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
