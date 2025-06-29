@@ -127,9 +127,13 @@ nav a:hover::before {
 nav .button{
   color: var(--whait-color);
     background-color: var(--primary-color);
-    font-size: 16px;
+    font-size: 1rem;
     padding: 10px 45px;
     border-radius: 8px;
+}
+.nav .button:hover{
+  background-color: var(--heading-color) ;
+
 }
 .dropdown_content li a:hover::before{
   background-color: inherit;

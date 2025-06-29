@@ -73,7 +73,7 @@ const Navbar = () => {
                 <a className="nav-link" href="#Contact">Contact</a>
               </li>
             </ul>
-            <a className={`btn   ${styles.button}`} href="#appointment">Get Started</a>
+            <a className={` ${styles.button}`} href="#appointment">Get Started</a>
           </div>
     </div>
       </nav>
