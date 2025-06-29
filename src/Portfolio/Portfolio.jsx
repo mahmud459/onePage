@@ -87,7 +87,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <section>
+    <section id="Portfolio">
           {/* section heading  */}
       <div className={`container ${styles.section_heading}`}>
         <div className="heading_content text-center">

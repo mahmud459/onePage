@@ -2,7 +2,7 @@ import React from "react";
 import styles from './Hero.module.css'
 function Hero(){
     return(
-    <section id="Hero">
+    <section id="Home">
         
         <div className={styles.hero_section}>
             <div className={`${styles.overlay_bg}`}></div>
@@ -20,7 +20,7 @@ function Hero(){
                   
                      </div>
                      <div className={styles.hero_cards}>
-                <div className="row">
+                <div className="row gy-3">
                     <div className="col-md-3">
                     <div className={`${styles.my_card} card`}>
                             <p><span><i className="fa-solid fa-box-archive"></i></span></p>

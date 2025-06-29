@@ -8,7 +8,7 @@ import styles from "./Team.module.css";
 
 function Team() {
   return (
-    <section id="team" className={styles.team}>
+    <section id="Team" className={styles.team}>
       {/* section heading  */}
       <div className={`container ${styles.section_heading}`}>
         <div className="heading_content text-center">
@@ -20,7 +20,7 @@ function Team() {
         </div>
       </div>
       <div className="container">
-        <div className="row">
+        <div className="row gy-3">
           <div className="col-md-3">
             <div class={`${styles.team_card} card shadow`}>
               <div className={styles.member_img}>

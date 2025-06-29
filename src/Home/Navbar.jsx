@@ -1,84 +1,83 @@
-import React from "react";
-import styles from "./Home.module.css";
+import React, { useState, useEffect } from 'react';
+import styles from './Home.module.css';
 
 const Navbar = () => {
+  const [showNavbar, setShowNavbar] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const y = window.scrollY;
+
+      if (y === 0 || y >= 400) {
+        setShowNavbar(true); // Show on top or after 400px
+      } else {
+        setShowNavbar(false); // Hide between 1px and 399px
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <section id="Home">
-      <div className="container"></div>
-      <header>
-        {/* start navbar */}
-        <div className="main-center">
-          <div className={""}>
-            <div className={styles.center_header}>
-              <div className={styles.left_center_header}>
-                <a href="#">
-                  <h1>OnePage</h1>
+    <div className={` ${styles.nav_container} ${showNavbar ? styles.visible : styles.hidden}`}>
+      <nav className="navbar navbar-expand-lg py-3  shadow">
+      <div className="container px-lg-0">
+        
+          <a className={`${styles.navbar_brand}`} href="#">OnePage</a>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav m-auto mb-2 mb-lg-0 ">
+              <li className="nav-item">
+                <a className="nav-link" href="#Home">Home</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#About">About</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#Services">Services</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#Portfolio">Portfolio</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#Team">Team</a>
+              </li>
+              <li className={`${styles.dropdown} nav-item dropdown `}>
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
                 </a>
-              </div>
-              <nav>
-                <ul className="mb-0">
-                  <li>
-                    <a href="#Home">Home</a>
-                  </li>
-                  <li>
-                    <a href="#About">About</a>
-                  </li>
-                  <li>
-                    <a href="#Services">Services</a>
-                  </li>
-                  <li>
-                    <a href="#Departments">Portfolio</a>
-                  </li>
-                  <li>
-                    <a href="#Doctors">Team</a>
-                  </li>
-                  <li className={"nav-item dropdown"}>
-                    <a
-                      className="nav-link dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Dropdown
-                    </a>
-                    <ul className={"dropdown-menu "}>
-                      <li>
-                        <a className="dropdown-item" href="#">
-                          Action
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="#">
-                          Another action
-                        </a>
-                      </li>
-                      {/* <li><hr class="dropdown-divider"></li> */}
-                      <li>
-                        <a className="dropdown-item" href="#">
-                          Something else here
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li>
-                    <a href="#Contact">Contact</a>
-                  </li>
+                <ul className={`${styles.dropdown_content } dropdown-menu`}>
+                  <li><a className="dropdown-item" href="#question">question</a></li>
+                  <li><a className="dropdown-item" href="#pricing">pricing</a></li>
+                  <li><a className="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-              </nav>
-
-              <div className={styles.right_center_header}>
-                <a className={styles.button} href="#appointment">
-                  Git Started
-                </a>
-              </div>
-            </div>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+            <a className={`btn   ${styles.button}`} href="#appointment">Get Started</a>
           </div>
-        </div>
-      </header>
-      
-    </section>
+    </div>
+      </nav>
+    </div>
   );
 };
 

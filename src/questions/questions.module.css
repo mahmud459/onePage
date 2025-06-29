@@ -1,0 +1,66 @@
+:root {
+    --blue-color: #2487ce;
+    --default-color: #444444;
+    --tham-color: #007aff;
+    --primary-color: #1977cc;
+    --whait-color: #fff;
+    --heading-color: #2c4964;
+    --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --heading-font: "Poppins", sans-serif;
+    --nav-font: "Raleway", sans-serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--default-font);
+    color: var(--default-color);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .section_heading {
+    margin-top: 100px;
+    margin-bottom: 75px;
+    padding: 10px;
+  }
+  
+  .section_heading h1 {
+    color: var(--heading-color);
+    text-transform: uppercase;
+  }
+
+  .question{
+    background-color: #f6fafd;
+    padding-bottom: 30px;
+  }
+
+  .question .accordion_item{
+  margin: 20px 0;
+  border-radius: 10px !important;
+  outline: none !important;
+  overflow: hidden;
+  }
+
+  .accordion_button{
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--heading-color);
+    
+  }
+  .accordion_button:focus {
+    /* background-color: var(--tham-color) !important; */
+    box-shadow: none;
+}

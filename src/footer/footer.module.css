@@ -1,0 +1,150 @@
+:root {
+    --blue-color: #2487ce;
+    --default-color: #444444;
+    --tham-color: #007aff;
+    --primary-color: #1977cc;
+    --whait-color: #fff;
+    --heading-color: #2c4964;
+    --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --heading-font: "Poppins", sans-serif;
+    --nav-font: "Raleway", sans-serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--default-font);
+    color: var(--default-color);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+
+/* Basic styles */
+.footer_background{
+border-top:1px solid #007bff53;
+    background-color: #f6fafd;
+}
+.footer {
+  padding: 40px 20px 20px;
+  color:var(--heading-color);
+  width: 100%;
+}
+
+.footer_row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.footer_about {
+  flex: 1 1 22%;
+}
+
+.logo .sitename {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--heading-color);
+  text-decoration: none;
+}
+
+.footer_contact p {
+  margin: 18px 0;
+}
+
+.social_links a {
+  margin-right: 10px;
+  font-size: 18px;
+  color: var(--heading-color);
+  text-decoration: none;
+}
+
+.footer_links {
+  flex: 1 1 150px;
+}
+
+.footer_links h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer_links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer_links li {
+  margin: 15px 0;
+}
+
+.footer_links a {
+  text-decoration: none;
+  color: #444;
+}
+
+.footer_links a:hover {
+  color: #007bff;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.credits {
+  font-size: 13px;
+  color: #777;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer_row {
+    flex-direction: column;
+  }
+
+  .footer_about,
+  .footer_links {
+    flex: 1 1 100%;
+  }
+
+  .social_links {
+    margin-top: 10px;
+  }
+}
+.scroll_top {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  background-color:var(--primary-color);
+  color: white;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.scroll_top:hover {
+  background-color: #0056b3;
+}
+

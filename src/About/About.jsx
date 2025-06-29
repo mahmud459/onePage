@@ -36,7 +36,7 @@ function ABOUT() {
   }, []);
 
   return (
-    <section id="about">
+    <section id="About">
       {/* section heading  */}
       <div className={`container ${styles.section_heading}`}>
         <div className="heading_content text-center">
